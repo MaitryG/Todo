@@ -1,0 +1,47 @@
+body{
+    background-color:  #885A5A ;
+}
+
+.todos li{
+    background-color: #F7C1BB;
+}
+
+h1{
+    font-family: 'Luckiest Guy';
+    color: #f79d65;
+    font-size: 100px;
+}
+
+span{
+    color: #353A47;
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+}
+
+i{
+    color: #353A47;
+    cursor: pointer;
+}
+.input-container{
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.add-icon{
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=text]:focus{
+    background-color: #f79d65;
+    border: none;
+    font-family: 'Merienda', cursive;
+    width: 300px;
+    color: #353A47;
+    padding: 10px;
+}
+
+.filtered{
+  display: none !important; 
+}
